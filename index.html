@@ -3,161 +3,130 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Exercise, RWD session 3 - learning path</title>
+    <title>Exercise, RWD session 3</title>
     <link href="css/styles.css" type="text/css" rel="stylesheet" />
 </head>
 
 <body>
-    <h1 id="top">Exercise, RWD session 3 - learning path</h1>
-    <h1>Exercise using z-index</h1>
+    <h1 id="top">Exercise, RWD session 3</h1>
+    <p>Sadly no more work on your pizza website.</p>
     <ol>
-        <li>Place the 5 animal cards in a cool overlaping structure, so each card partially overlap the previous.</li>
-        <li>Add different color borders to the 5 animal cards.</li>
+        <li>Use the float property in CSS to place the description text for each of the four animals below on the right
+            side of coresponding picture.</li>
+        <li>Add a different background color to the divsion for each animal.</li>
+        <li>Consider changing the overflow property.</li>
+        <li>Use float or the positioning property to arrange animal pictures and text in a 2x2 setup.</li>
+        <li>Show visible borders between each of the four animals. </li>
+        <li>Copy the animal pictures and the descriptions and arrange the amimal pictures and their associated descriptions in a 2x2 layout using a table.</li>
+        <li>Add borders in the animal table.</li>
+        <li>Change the styling of the animal table.</li>
     </ol>
 
     <div>
-        <img class="animal_card" id="c" src="images/cheetah.jpg" alt="Picture of a cheetah" title="Cheetah">
-        <img class="animal_card" id="h" src="images/hippopotamus.jpg" alt="Picture of a hippo" title="Hippo">
-        <img class="animal_card" id="l" src="images/lion.jpg" alt="Picture of a lion" title="Lion">
-        <img class="animal_card" id="o" src="images/ostrich.jpg" alt="Picture of a ostrich" title="Ostrich">
-        <img class="animal_card" id="z" src="images/zebra.jpg" alt="Picture of a zebra" title="Zebra">
+        <div class="clearfix" id="crocodile">
+            <img class="animal_main" src="images/crocodile.jpg" alt="Picture of a crocodile" title="Crocodile">
+            <p>Crocodiles (subfamily Crocodylinae) or true crocodiles are large aquatic reptiles that live throughout
+                the tropics in Africa, Asia, the Americas and Australia. Crocodylinae, all of whose members are
+                considered true crocodiles, is classified as a biological subfamily. A broader sense of the term
+                crocodile, Crocodylidae that includes Tomistoma, is not used in this article. The term crocodile here
+                applies only to the species within the subfamily of Crocodylinae. The term is sometimes used even more
+                loosely to include all extant members of the order Crocodilia, which includes Tomistoma, the alligators
+                and caimans (family Alligatoridae), the gharials (family Gavialidae), and all other living and fossil
+                Crocodylomorpha.</p>
+        </div>
+        <div class="clearfix" id="elephant">
+            <img class="animal_main" src="images/elephant.jpg" alt="Picture of an elephant" title="Elephant">
+            <p>Elephants are large mammals of the family Elephantidae and the order Proboscidea. Two species are
+                traditionally recognised, the African elephant (Loxodonta africana) and the Asian elephant (Elephas
+                maximus), although some evidence suggests that African bush elephants and African forest elephants are
+                separate species (L. africana and L. cyclotis respectively). Elephants are scattered throughout
+                sub-Saharan Africa, South Asia, and Southeast Asia. Elephantidae is the only surviving family of the
+                order Proboscidea; other, now extinct, members of the order include deinotheres, gomphotheres, mammoths,
+                and mastodons. Male African elephants are the largest extant terrestrial animals and can reach a height
+                of 4 m (13 ft) and weigh 7,000 kg (15,000 lb).</p>
+        </div>
+        <div class="clearfix" id="giraffe">
+            <img class="animal_main" src="images/giraffe.jpg" alt="Picture of a giraffe" title="Giraffe">
+            <p>The giraffe (Giraffa camelopardalis) is an African even-toed ungulate mammal, the tallest living
+                terrestrial animal and the largest ruminant. Its species name refers to its camel-like shape and its
+                leopard-like colouring. Its chief distinguishing characteristics are its extremely long neck and legs,
+                its horn-like ossicones, and its distinctive coat patterns. It is classified under the family
+                Giraffidae, along with its closest extant relative, the okapi. The nine subspecies are distinguished by
+                their coat patterns.</p>
+        </div>
+        <div class="clearfix" id="tiger">
+            <img class="animal_main" src="images/tiger.jpg" alt="Picture of a tiger" title="Tiger">
+            <p>The tiger (Panthera tigris) is the largest cat species, reaching a total body length of up to 3.38 m
+                (11.1 ft) over curves and exceptionally weighing up to 388.7 kg (857 lb) in the wild. Its most
+                recognisable feature is a pattern of dark vertical stripes on reddish-orange fur with a lighter
+                underside. The species is classified in the genus Panthera with the lion, leopard, jaguar and snow
+                leopard. Tigers are apex predators, primarily preying on ungulates such as deer and bovids. They are
+                territorial and generally solitary but social animals, often requiring large contiguous areas of habitat
+                that support their prey requirements. This, coupled with the fact that they are indigenous to some of
+                the more densely populated places on Earth, has caused significant conflicts with humans.</p>
+        </div>
     </div>
 
-    
-    <div>
-        <h1>Exercise, HTML forms</h1>
-        <form action="http://www.no-where.com/formhandler.php" method="get" id="form1">
-            <fieldset>
-                <legend>My Form</legend>
-                <label>First field:
-                    <input type="text" name="firstField" id="firstField" value="Type here">
-                </label>
-                <label>Second field:
-                    <input type="text" name="secondField" id="secondField">
-                </label>
-                <label> Third field:
-                    <input type="text" name="thirdfield" id="thirdfield" value="IDK">
+    <br>
 
-                </label>
-            </fieldset>
-            <input type="submit" value="Submit this form">
-            <input type="button" value="Reset">
-        </form>
+    <table>
+        <tr>
+            <td>
+                
+                    <img class="animal_main" src="images/crocodile.jpg" alt="Picture of a crocodile" title="Crocodile">
+                    <p>Crocodiles (subfamily Crocodylinae) or true crocodiles are large aquatic reptiles that live throughout
+                        the tropics in Africa, Asia, the Americas and Australia. Crocodylinae, all of whose members are
+                        considered true crocodiles, is classified as a biological subfamily. A broader sense of the term
+                        crocodile, Crocodylidae that includes Tomistoma, is not used in this article. The term crocodile here
+                        applies only to the species within the subfamily of Crocodylinae. The term is sometimes used even more
+                        loosely to include all extant members of the order Crocodilia, which includes Tomistoma, the alligators
+                        and caimans (family Alligatoridae), the gharials (family Gavialidae), and all other living and fossil
+                        Crocodylomorpha.</p>
+                
 
-        <form action="http://www.no-where.com/formhandler.php" method="get">
-            <fieldset>
-                <legend>Form number 2</legend>
-                <label>Choose your fruit :)
-                    <select name="fruit" id="fruit" default>
-                        <option value="apple">Apple</option>
-                        <option value="banana">Banana</option>
-                        <option value="kiwi" selected>Kiwi</option>
-                        <option value="orange">Orange</option>
-                    </select>
-                </label>
-            </fieldset>
-        </form>
-        <form action="http://www.no-where.com/formhandler.php" method="get">
-            <fieldset>
-                <legend>My formito tres</legend>
-                <input type="radio" id="1" name="number" value="ONE">
-                <label for="1">ONE</label> <br>
-                <input type="radio" id="2" name="number" value="TWO">
-                <label for="2">TWO</label> <br>
-                <input type="radio" id="3" name="number" value="THREE">
-                <label for="3">THREE</label> <br>
-                <input type="submit" value="Submit">
+            </td>
 
-            </fieldset>
-        </form>
-  
-        <form>
-            <fieldset>
-                <legend>Last one, thanks god</legend>
-                <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
-                <label for="vehicle1"> I have a bike</label><br>
-                <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
-                <label for="vehicle2"> I have a car</label><br>
-                <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
-                <label for="vehicle3"> I have a boat</label><br>
+            <td>
+                
+                    <img class="animal_main" src="images/elephant.jpg" alt="Picture of an elephant" title="Elephant">
+                    <p>Elephants are large mammals of the family Elephantidae and the order Proboscidea. Two species are
+                        traditionally recognised, the African elephant (Loxodonta africana) and the Asian elephant (Elephas
+                        maximus), although some evidence suggests that African bush elephants and African forest elephants are
+                        separate species (L. africana and L. cyclotis respectively). Elephants are scattered throughout
+                        sub-Saharan Africa, South Asia, and Southeast Asia. Elephantidae is the only surviving family of the
+                        order Proboscidea; other, now extinct, members of the order include deinotheres, gomphotheres, mammoths,
+                        and mastodons. Male African elephants are the largest extant terrestrial animals and can reach a height
+                        of 4 m (13 ft) and weigh 7,000 kg (15,000 lb).</p>
+                
 
-                <input type="button" value="Whatever">
-            </fieldset>
-        </form>
+            </td>
+        </tr>
+        <tr>
+            <td><img class="animal_main" src="images/elephant.jpg" alt="Picture of an elephant" title="Elephant">
+                <p>Elephants are large mammals of the family Elephantidae and the order Proboscidea. Two species are
+                    traditionally recognised, the African elephant (Loxodonta africana) and the Asian elephant (Elephas
+                    maximus), although some evidence suggests that African bush elephants and African forest elephants are
+                    separate species (L. africana and L. cyclotis respectively). Elephants are scattered throughout
+                    sub-Saharan Africa, South Asia, and Southeast Asia. Elephantidae is the only surviving family of the
+                    order Proboscidea; other, now extinct, members of the order include deinotheres, gomphotheres, mammoths,
+                    and mastodons. Male African elephants are the largest extant terrestrial animals and can reach a height
+                    of 4 m (13 ft) and weigh 7,000 kg (15,000 lb).</p></td>
+            <td>
+                <img class="animal_main" src="images/tiger.jpg" alt="Picture of a tiger" title="Tiger">
+            <p>The tiger (Panthera tigris) is the largest cat species, reaching a total body length of up to 3.38 m
+                (11.1 ft) over curves and exceptionally weighing up to 388.7 kg (857 lb) in the wild. Its most
+                recognisable feature is a pattern of dark vertical stripes on reddish-orange fur with a lighter
+                underside. The species is classified in the genus Panthera with the lion, leopard, jaguar and snow
+                leopard. Tigers are apex predators, primarily preying on ungulates such as deer and bovids. They are
+                territorial and generally solitary but social animals, often requiring large contiguous areas of habitat
+                that support their prey requirements. This, coupled with the fact that they are indigenous to some of
+                the more densely populated places on Earth, has caused significant conflicts with humans.</p>
 
-    </div>
-
-    <div>
-        <p>Try to use forms.</p>
-        <ol>
-            <li>Add a reset button to the form above.</li>
-            <li>Add a text area to the form above.</li>
-            <li>Create a form and put the following items in a drop-down list or datalist control:
-                <ul>
-                    <li>Apple</li>
-                    <li>Banana</li>
-                    <li>Kiwi</li>
-                    <li>Orange</li>
-                </ul>
-                The list should defeault select Kiwi.
-            </li>
-            <li>Create a form that uses the checkbox type of input (2 or more options).</li>
-            <li>Create a form that uses the radio type of input with the following music genres: Heavy Metal, Rock,
-                Punk,
-                Indie, Pop, Electronic, Country, Classical, and Jazz.</li>
-            <li>Style your forms with CSS.</li>
-        </ol>
-        <h1>EXTRA: Challenge exercise (completely voluntary)</h1>
-        <ul>
-            <li>Look at the picture below and construct a table that looks like it (use class assignments and
-                nth-child()
-                selectors for styling).</li>
-        </ul>
-        <img src="images/table_pic.png" alt="table nightmare" title="Table nighemare exercise" />
-    </div>
-
-    <div>
-        <table >
-            <tr>
-                <td rowspan="2" colspan="2"></td><td ></td><td ></td><td ></td><td ></td>
-            </tr>
-            <tr>
-                <td ></td><td id="black" rowspan = "2" colspan="3" >
-
-                    <table> 
-                            <tr> 
-                                <td></td>  <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> 
-                            </tr>
-
-                            <tr> 
-                                <td></td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> 
-                            </tr>
-
-                            <tr> 
-                                <td colspan="2"></td> <td colspan="2"></td> <td colspan="2"></td>
-                            </tr>
-                            <tr> 
-                                <td></td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> 
-                            </tr>
-                    </table>
-                </td>
-            </tr>
-
-            <tr>
-                <td></td> <td></td> <td></td> 
-            </tr>
-
-            <tr>
-                <td></td> <td></td> <td></td> <td rowspan="2"></td> <td></td> <td></td>
-            </tr>
-
-            <tr>
-                <td></td> <td colspan="2"></td> <td></td> <td></td> 
-            </tr>
-            
-        </table>
-    </div>
-
+            </td>
+        </tr>
+        
+        
+    </table>
 </body>
 
 </html>
