@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Exercise, RWD session 3 - learning path</title>
+    <link href="css/styles.css" type="text/css" rel="stylesheet" />
+</head>
+
+<body>
+    <h1 id="top">Exercise, RWD session 3 - learning path</h1>
+    <h1>Exercise using z-index</h1>
+    <ol>
+        <li>Place the 5 animal cards in a cool overlaping structure, so each card partially overlap the previous.</li>
+        <li>Add different color borders to the 5 animal cards.</li>
+    </ol>
+
+    <div>
+        <img class="animal_card" id="c" src="images/cheetah.jpg" alt="Picture of a cheetah" title="Cheetah">
+        <img class="animal_card" id="h" src="images/hippopotamus.jpg" alt="Picture of a hippo" title="Hippo">
+        <img class="animal_card" id="l" src="images/lion.jpg" alt="Picture of a lion" title="Lion">
+        <img class="animal_card" id="o" src="images/ostrich.jpg" alt="Picture of a ostrich" title="Ostrich">
+        <img class="animal_card" id="z" src="images/zebra.jpg" alt="Picture of a zebra" title="Zebra">
+    </div>
+
+    
+    <div>
+        <h1>Exercise, HTML forms</h1>
+        <form action="http://www.no-where.com/formhandler.php" method="get" id="form1">
+            <fieldset>
+                <legend>My Form</legend>
+                <label>First field:
+                    <input type="text" name="firstField" id="firstField" value="Type here">
+                </label>
+                <label>Second field:
+                    <input type="text" name="secondField" id="secondField">
+                </label>
+                <label> Third field:
+                    <input type="text" name="thirdfield" id="thirdfield" value="IDK">
+
+                </label>
+            </fieldset>
+            <input type="submit" value="Submit this form">
+            <input type="button" value="Reset">
+        </form>
+
+        <form action="http://www.no-where.com/formhandler.php" method="get">
+            <fieldset>
+                <legend>Form number 2</legend>
+                <label>Choose your fruit :)
+                    <select name="fruit" id="fruit" default>
+                        <option value="apple">Apple</option>
+                        <option value="banana">Banana</option>
+                        <option value="kiwi" selected>Kiwi</option>
+                        <option value="orange">Orange</option>
+                    </select>
+                </label>
+            </fieldset>
+        </form>
+        <form action="http://www.no-where.com/formhandler.php" method="get">
+            <fieldset>
+                <legend>My formito tres</legend>
+                <input type="radio" id="1" name="number" value="ONE">
+                <label for="1">ONE</label> <br>
+                <input type="radio" id="2" name="number" value="TWO">
+                <label for="2">TWO</label> <br>
+                <input type="radio" id="3" name="number" value="THREE">
+                <label for="3">THREE</label> <br>
+                <input type="submit" value="Submit">
+
+            </fieldset>
+        </form>
+  
+        <form>
+            <fieldset>
+                <legend>Last one, thanks god</legend>
+                <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                <label for="vehicle1"> I have a bike</label><br>
+                <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                <label for="vehicle2"> I have a car</label><br>
+                <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                <label for="vehicle3"> I have a boat</label><br>
+
+                <input type="button" value="Whatever">
+            </fieldset>
+        </form>
+
+    </div>
+
+    <div>
+        <p>Try to use forms.</p>
+        <ol>
+            <li>Add a reset button to the form above.</li>
+            <li>Add a text area to the form above.</li>
+            <li>Create a form and put the following items in a drop-down list or datalist control:
+                <ul>
+                    <li>Apple</li>
+                    <li>Banana</li>
+                    <li>Kiwi</li>
+                    <li>Orange</li>
+                </ul>
+                The list should defeault select Kiwi.
+            </li>
+            <li>Create a form that uses the checkbox type of input (2 or more options).</li>
+            <li>Create a form that uses the radio type of input with the following music genres: Heavy Metal, Rock,
+                Punk,
+                Indie, Pop, Electronic, Country, Classical, and Jazz.</li>
+            <li>Style your forms with CSS.</li>
+        </ol>
+        <h1>EXTRA: Challenge exercise (completely voluntary)</h1>
+        <ul>
+            <li>Look at the picture below and construct a table that looks like it (use class assignments and
+                nth-child()
+                selectors for styling).</li>
+        </ul>
+        <img src="images/table_pic.png" alt="table nightmare" title="Table nighemare exercise" />
+    </div>
+
+    <div>
+        <table >
+            <tr>
+                <td rowspan="2" colspan="2"></td><td ></td><td ></td><td ></td><td ></td>
+            </tr>
+            <tr>
+                <td ></td><td id="black" rowspan = "2" colspan="3" >
+
+                    <table> 
+                            <tr> 
+                                <td></td>  <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> 
+                            </tr>
+
+                            <tr> 
+                                <td></td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> 
+                            </tr>
+
+                            <tr> 
+                                <td colspan="2"></td> <td colspan="2"></td> <td colspan="2"></td>
+                            </tr>
+                            <tr> 
+                                <td></td> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> 
+                            </tr>
+                    </table>
+                </td>
+            </tr>
+
+            <tr>
+                <td></td> <td></td> <td></td> 
+            </tr>
+
+            <tr>
+                <td></td> <td></td> <td></td> <td rowspan="2"></td> <td></td> <td></td>
+            </tr>
+
+            <tr>
+                <td></td> <td colspan="2"></td> <td></td> <td></td> 
+            </tr>
+            
+        </table>
+    </div>
+
+</body>
+
+</html>
