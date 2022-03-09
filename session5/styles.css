@@ -1,0 +1,70 @@
+html, body {
+    height: 100%;
+}
+
+.animal_main {
+
+
+    width: 25%;
+    height: 25%;
+    float: left;
+}
+
+@media screen and (max-width: 550px){
+    .animal_main {
+        width: 100%;
+        float: left;
+    }
+
+}
+
+@media screen and (min-width: 551px) and (max-width: 768px) {
+
+    .animal_main {
+
+        width: 50%;
+        float: left;
+
+    }
+
+}
+
+#yellow_box {
+    width: 15%;
+    height: 15%;
+    background-color: yellow;
+}
+
+#nicki {
+
+    max-width: 75%;
+    height: auto;
+}
+
+#red_box {
+    display: none;
+}
+
+
+@media screen and (min-width: 400px) {
+
+    #red_box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 400px;
+        height: 200px;
+
+        background-color: red;
+    }
+
+}
+
+
+
+#blue_box {
+
+    width: 20%;
+    height: 20%;
+    background-color: blue;
+}
